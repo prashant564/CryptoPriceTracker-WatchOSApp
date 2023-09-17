@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4BDB1212AB774890091B375 /* CryptoPriceTracker Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E4BDB1202AB774890091B375 /* CryptoPriceTracker Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E4BDB1262AB774890091B375 /* CryptoPriceTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDB1252AB774890091B375 /* CryptoPriceTrackerApp.swift */; };
+		E4BDB1282AB774890091B375 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDB1272AB774890091B375 /* ContentView.swift */; };
+		E4BDB12A2AB7748A0091B375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BDB1292AB7748A0091B375 /* Assets.xcassets */; };
+		E4BDB12D2AB7748A0091B375 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BDB12C2AB7748A0091B375 /* Preview Assets.xcassets */; };
+		E4BDB13D2AB7750D0091B375 /* CoinGraphDummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDB13C2AB7750D0091B375 /* CoinGraphDummyData.swift */; };
+		E4BDB13F2AB7754A0091B375 /* CoinListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDB13E2AB7754A0091B375 /* CoinListModel.swift */; };
+		E4BDB1422AB775850091B375 /* CoinItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDB1412AB775850091B375 /* CoinItem.swift */; };
+		E4BDB1442AB775AF0091B375 /* InterpolationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDB1432AB775AF0091B375 /* InterpolationMethod.swift */; };
+		E4BDB1462AB775D30091B375 /* SingleLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDB1452AB775D30091B375 /* SingleLine.swift */; };
+		E4BDB1482AB775F90091B375 /* CoinListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDB1472AB775F90091B375 /* CoinListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4BDB1222AB774890091B375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4BDB1142AB774890091B375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4BDB11F2AB774890091B375;
+			remoteInfo = "CryptoPriceTracker Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4BDB1332AB7748A0091B375 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E4BDB1212AB774890091B375 /* CryptoPriceTracker Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E4BDB11A2AB774890091B375 /* CryptoPriceTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoPriceTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BDB1202AB774890091B375 /* CryptoPriceTracker Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoPriceTracker Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4BDB1252AB774890091B375 /* CryptoPriceTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPriceTrackerApp.swift; sourceTree = "<group>"; };
+		E4BDB1272AB774890091B375 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4BDB1292AB7748A0091B375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4BDB12C2AB7748A0091B375 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4BDB13C2AB7750D0091B375 /* CoinGraphDummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGraphDummyData.swift; sourceTree = "<group>"; };
+		E4BDB13E2AB7754A0091B375 /* CoinListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListModel.swift; sourceTree = "<group>"; };
+		E4BDB1412AB775850091B375 /* CoinItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinItem.swift; sourceTree = "<group>"; };
+		E4BDB1432AB775AF0091B375 /* InterpolationMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolationMethod.swift; sourceTree = "<group>"; };
+		E4BDB1452AB775D30091B375 /* SingleLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLine.swift; sourceTree = "<group>"; };
+		E4BDB1472AB775F90091B375 /* CoinListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4BDB11D2AB774890091B375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4BDB1132AB774890091B375 = {
+			isa = PBXGroup;
+			children = (
+				E4BDB1242AB774890091B375 /* CryptoPriceTracker Watch App */,
+				E4BDB11B2AB774890091B375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4BDB11B2AB774890091B375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4BDB11A2AB774890091B375 /* CryptoPriceTracker.app */,
+				E4BDB1202AB774890091B375 /* CryptoPriceTracker Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4BDB1242AB774890091B375 /* CryptoPriceTracker Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E4BDB1252AB774890091B375 /* CryptoPriceTrackerApp.swift */,
+				E4BDB1402AB775580091B375 /* viewmodels */,
+				E4BDB13B2AB774F20091B375 /* data */,
+				E4BDB13A2AB774DF0091B375 /* views */,
+				E4BDB1382AB774CC0091B375 /* models */,
+				E4BDB1372AB774BD0091B375 /* components */,
+				E4BDB1272AB774890091B375 /* ContentView.swift */,
+				E4BDB1292AB7748A0091B375 /* Assets.xcassets */,
+				E4BDB12B2AB7748A0091B375 /* Preview Content */,
+			);
+			path = "CryptoPriceTracker Watch App";
+			sourceTree = "<group>";
+		};
+		E4BDB12B2AB7748A0091B375 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4BDB12C2AB7748A0091B375 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4BDB1372AB774BD0091B375 /* components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		E4BDB1382AB774CC0091B375 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E4BDB1412AB775850091B375 /* CoinItem.swift */,
+				E4BDB1432AB775AF0091B375 /* InterpolationMethod.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		E4BDB13A2AB774DF0091B375 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E4BDB1452AB775D30091B375 /* SingleLine.swift */,
+				E4BDB1472AB775F90091B375 /* CoinListView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		E4BDB13B2AB774F20091B375 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				E4BDB13C2AB7750D0091B375 /* CoinGraphDummyData.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		E4BDB1402AB775580091B375 /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				E4BDB13E2AB7754A0091B375 /* CoinListModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4BDB1192AB774890091B375 /* CryptoPriceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BDB1342AB7748A0091B375 /* Build configuration list for PBXNativeTarget "CryptoPriceTracker" */;
+			buildPhases = (
+				E4BDB1182AB774890091B375 /* Resources */,
+				E4BDB1332AB7748A0091B375 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4BDB1232AB774890091B375 /* PBXTargetDependency */,
+			);
+			name = CryptoPriceTracker;
+			productName = CryptoPriceTracker;
+			productReference = E4BDB11A2AB774890091B375 /* CryptoPriceTracker.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E4BDB11F2AB774890091B375 /* CryptoPriceTracker Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4BDB1302AB7748A0091B375 /* Build configuration list for PBXNativeTarget "CryptoPriceTracker Watch App" */;
+			buildPhases = (
+				E4BDB11C2AB774890091B375 /* Sources */,
+				E4BDB11D2AB774890091B375 /* Frameworks */,
+				E4BDB11E2AB774890091B375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptoPriceTracker Watch App";
+			productName = "CryptoPriceTracker Watch App";
+			productReference = E4BDB1202AB774890091B375 /* CryptoPriceTracker Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4BDB1142AB774890091B375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E4BDB1192AB774890091B375 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E4BDB11F2AB774890091B375 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E4BDB1172AB774890091B375 /* Build configuration list for PBXProject "CryptoPriceTracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4BDB1132AB774890091B375;
+			productRefGroup = E4BDB11B2AB774890091B375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4BDB1192AB774890091B375 /* CryptoPriceTracker */,
+				E4BDB11F2AB774890091B375 /* CryptoPriceTracker Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4BDB1182AB774890091B375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4BDB11E2AB774890091B375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BDB12D2AB7748A0091B375 /* Preview Assets.xcassets in Resources */,
+				E4BDB12A2AB7748A0091B375 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4BDB11C2AB774890091B375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4BDB13F2AB7754A0091B375 /* CoinListModel.swift in Sources */,
+				E4BDB1442AB775AF0091B375 /* InterpolationMethod.swift in Sources */,
+				E4BDB1462AB775D30091B375 /* SingleLine.swift in Sources */,
+				E4BDB1282AB774890091B375 /* ContentView.swift in Sources */,
+				E4BDB1262AB774890091B375 /* CryptoPriceTrackerApp.swift in Sources */,
+				E4BDB1482AB775F90091B375 /* CoinListView.swift in Sources */,
+				E4BDB13D2AB7750D0091B375 /* CoinGraphDummyData.swift in Sources */,
+				E4BDB1422AB775850091B375 /* CoinItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4BDB1232AB774890091B375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4BDB11F2AB774890091B375 /* CryptoPriceTracker Watch App */;
+			targetProxy = E4BDB1222AB774890091B375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4BDB12E2AB7748A0091B375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4BDB12F2AB7748A0091B375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E4BDB1312AB7748A0091B375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoPriceTracker Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AW2WMZCXT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoPriceTracker;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashD.CryptoPriceTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		E4BDB1322AB7748A0091B375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CryptoPriceTracker Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = AW2WMZCXT6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoPriceTracker;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashD.CryptoPriceTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		E4BDB1352AB7748A0091B375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AW2WMZCXT6;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoPriceTracker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashD.CryptoPriceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4BDB1362AB7748A0091B375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AW2WMZCXT6;
+				INFOPLIST_KEY_CFBundleDisplayName = CryptoPriceTracker;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prashD.CryptoPriceTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4BDB1172AB774890091B375 /* Build configuration list for PBXProject "CryptoPriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BDB12E2AB7748A0091B375 /* Debug */,
+				E4BDB12F2AB7748A0091B375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BDB1302AB7748A0091B375 /* Build configuration list for PBXNativeTarget "CryptoPriceTracker Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BDB1312AB7748A0091B375 /* Debug */,
+				E4BDB1322AB7748A0091B375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4BDB1342AB7748A0091B375 /* Build configuration list for PBXNativeTarget "CryptoPriceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BDB1352AB7748A0091B375 /* Debug */,
+				E4BDB1362AB7748A0091B375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4BDB1142AB774890091B375 /* Project object */;
+}
